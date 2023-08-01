@@ -125,6 +125,7 @@ input[type="submit"] {
 .login-list{
     text-align: center;
 }
+
 .login-list a{
     color: var(--orange);
     font-size: 12px;
