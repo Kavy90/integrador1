@@ -76,15 +76,13 @@ header div {
 /*=========PORTADA========= */
 
 main {
-    /* padding-top: 60px; */
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 #hero {
-    max-width: 1800px;
+    max-width: 100%;
     margin: 0 auto;
     /* backgrund fijo */
     background-image: url(./img/portada/Diseño\ sin\ título\ \(1\).png);
@@ -145,7 +143,7 @@ main {
 
 /* ========ABOUT US===========*/
 #about {
-    max-width: 1800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 60px 0 50px 0;
     background-color: white;
@@ -220,9 +218,8 @@ main {
 /* ====CURSOS===== */
 
 #courses {
-    max-width: 1800px;
+    max-width: 1200px;
     margin: 0 auto;
-    /* padding: 80px 0 30px 0; */
     padding-top: 80px;
     padding-bottom: 40px;
     display: flex;
@@ -235,20 +232,22 @@ main {
 
 .courses-container {
     width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     gap:20px;
+    padding: 0 18px;
 }
 
 .course-card {
-    width: 400px;
     height: 500px;
     background-color: var(--orange);
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
     align-items: center;
     justify-content: space-around;
     text-align: center;
@@ -257,7 +256,7 @@ main {
 }
 
 .course-card img {
-    height: 150px;
+    height: 140px;
     border-radius: 10px;
 }
 
@@ -267,11 +266,12 @@ main {
     justify-content: center;
     align-items: center;
     gap:10px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .course-info h3{
-    font-size: 15px;
+    font-size: 12.5px;
+    text-transform: uppercase;
 }
 
 .course-info p{
@@ -284,15 +284,15 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding: 0 20px 10px 20px;
+    padding: 0 20px 8px 20px;
 }
 
 .course-btn a{
     background-color: white;
     color: var(--orange);
     font-weight: 600;
-    font-size: 12px;
-    padding: 10px 30px;
+    font-size: 11px;
+    padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -303,7 +303,7 @@ main {
 #contact {
     display: flex;
     flex-direction: column;
-    max-width: 1800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 90px;
     justify-content: center;
@@ -330,7 +330,6 @@ main {
 
 .contact-info {
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -428,7 +427,8 @@ main {
 
 /* ====FOOTER==== */
 footer {
-    max-width: 1800px;
+    max-width: 1200px;
+    margin: 0 auto;
     padding-top: 20px;
 }
 

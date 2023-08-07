@@ -1,0 +1,213 @@
+/* @media(max-width: 1200px) {
+    .about-info p{
+        max-width: 90%;
+    }
+
+    .courses-container{
+        padding: 0 16px;
+    }
+
+    .course-info h3{
+        font-size: 13.5px;
+    }
+} */
+@media (max-width:992px){
+   .courses-container{
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+   }
+
+   .course-card{
+    width: 400px;
+   }
+}
+
+@media (max-width:776px){
+
+    #hero h1{
+        font-size: 35px;
+    }
+
+    #hero p{
+        font-size: 12px;
+    }
+
+    #about {
+        width: 97%;
+    }
+
+    
+
+    .contact-container{
+        flex-wrap: wrap;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .course-card{
+        width: 500px;
+        height: 450px;
+    }
+
+    .contact-info{
+        width: 80%;
+        text-align: center;
+       
+    }
+
+    .contact-form{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+
+    }
+
+    .form {
+        width: 140%;
+    }
+
+    .form-msj{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px){
+    .navbar-list a,
+    .navbar-list span{
+        font-size: 10px;
+    }
+
+    #hero h1{
+        font-size: 25px;
+    }
+
+    #hero p,
+    #hero a{
+        font-size: 10px;
+    }
+
+    .about-info,
+    .card {
+        font-size: 10px;
+    }
+
+    .about-info h2,
+    #courses h2 {
+        font-size: 14px;
+    }
+
+    .course-card{
+        height: 380px;
+    }
+
+    .course-info p,
+    .course-btn a {
+        font-size: 10px;
+    }
+
+    #contact h2{
+        font-size: 14px;
+    }
+
+    .contact-info {
+        font-size: 12px;
+    }
+
+    .contac-info img{
+        width: 50px;
+    }
+
+    .contact-links a{
+        width: 30px;
+    }
+
+    .form-info,
+    .form-msj{
+        font-size: 12px;
+    }
+
+    .footer-links a{
+        font-size: 10px;
+    }
+
+    .footer-links{
+        gap:5px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .navbar-list {
+        display: none;
+    }
+    #hero h1{
+        font-size: 25px;
+    }
+
+    .hero-info{
+        padding: 8px;
+    }
+
+    #about img{
+        width: 100px;
+    }
+
+
+    .about-cards {
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 180px;
+        height: 180px;
+    }
+
+    .courses-container{
+        width: 90%;
+        padding: 5px;
+    }
+    .course-info h3{
+        font-size: 10px;
+    }
+    .course-btn a{
+        font-size: 9px;
+        padding: 10px 14px;
+    }
+
+
+    .course-card p{
+        display: none;
+    }
+
+    .course-card{
+        width: 300px;
+        height: 240px;
+    }
+
+    .course-card img{
+        width: 150px;
+        height: 100px;
+    }
+
+    .form,
+    .form-msj{
+        width: 240px;
+    }
+
+    .contact-form p{
+        font-size: 11px;
+    }
+
+    .contact-info img{
+        width: 180px;
+    }
+
+    .contact-links a{
+        width: 20px;
+    }
+
+}
+
+
