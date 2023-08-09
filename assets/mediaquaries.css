@@ -208,6 +208,10 @@
 }
 
 @media(max-width: 400px){
+
+    #hero {
+        background-image: url(./img/portada/hero\ alternativo.png);
+    }
     .hero-info{
         padding: 8px;
     }
@@ -231,7 +235,8 @@
 }
 
 @media (max-width: 320px){
-
+   
+       
     #hero h1{
         font-size: 25px;
     }
