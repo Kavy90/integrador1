@@ -18,6 +18,19 @@
 }
 
 @media (max-width:992px){
+    #hero h1{
+        font-size: 35px;
+    }
+
+    #hero p{
+        font-size: 12px;
+    }
+    
+    .about-cards {
+        flex-wrap: wrap;
+    }
+
+
    .courses-container{
     flex-wrap: wrap;
     gap: 25px;
@@ -28,10 +41,10 @@
     width: 430px;
     gap:20px;
    }
-
-   .form{
-    width: 100%;
+   .contact-info img{
+    width: 220px;
    }
+   
 }
 
 @media (max-width:776px){

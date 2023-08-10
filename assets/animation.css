@@ -1,0 +1,38 @@
+
+.navbar-list a:hover{
+    color: var(--orange);
+}
+
+.navbar-list span:hover{
+    color: var(--orange);
+    background-color: white;
+    font-weight: 800;
+    /* font-size: 14px; */
+    border: .2px var(--orange) solid;
+    padding: 9px 14px;
+}
+
+.hero-info a:hover{
+    color: var(--orange);
+    background-color: var(--white);
+    font-weight: 800;
+    border: .2px var(--orange) solid;
+    padding: 9px 29px;
+}
+
+.course-btn a:hover{
+    background-color: var(--orange);
+    color: white;
+    border: .1px var(--white) solid;
+    padding: 7px 14px;
+}
+
+.form-btn:hover{
+    background-color: var(--white);
+    font-weight: 800;
+    color: var(--orange);
+}
+
+.footer-links a:hover{
+    color: var(--orange);
+}
