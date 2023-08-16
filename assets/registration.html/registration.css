@@ -40,6 +40,7 @@ font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
 
+
 .navbar span{
     background-color: var(--orange);
     color: var(--white);
@@ -47,6 +48,14 @@ font-family: 'Poppins', sans-serif;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 600;
+}
+
+.navbar span:hover{
+    color: var(--orange);
+    background-color: white;
+    font-weight: 800;
+    border: .2px var(--orange) solid;
+    padding: 9px 14px;
 }
 
 .navbar img{
@@ -107,6 +116,7 @@ input{
     border-right: none;
     border-left: none;
     border-color: var(--orange);
+    outline: none;
 }
 
 input::placeholder{
@@ -132,6 +142,15 @@ input[type="submit"] {
     cursor: pointer; 
   }
 
+input[type="submit"]:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    background-color: white;
+    font-weight: 800;
+    border: .2px var(--orange) solid;
+    padding: 4px 29px;
+}
+
 
 .registration-form{
     text-align: center;
@@ -143,4 +162,8 @@ input[type="submit"] {
     cursor: pointer;
     padding-top: 5px;
     padding-bottom: 9px;
+}
+
+.registration-form a:hover{
+    color: var(--black);
 }

@@ -53,6 +53,13 @@ body{
     text-transform: uppercase;
 }
 
+.navbar a:hover{
+    color: var(--orange);
+    /* background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px; */
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -96,6 +103,7 @@ input{
     border-right: none;
     border-left: none;
     border-color: var(--orange);
+    outline: none;
 }
 
 input::placeholder{
@@ -121,6 +129,14 @@ input[type="submit"] {
     cursor: pointer; 
   }
 
+input[type="submit"]:hover{
+    background-color: var(--white);
+    color: var(--orange);
+    background-color: white;
+    font-weight: 800;
+    border: .2px var(--orange) solid;
+    padding: 4px 29px;
+}
 
 .login-list{
     text-align: center;
@@ -131,5 +147,9 @@ input[type="submit"] {
     font-size: 12px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.login-list a:hover{
+    color: var(--black);
 }
 
